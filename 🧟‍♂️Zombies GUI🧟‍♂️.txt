@@ -79,3 +79,15 @@ local Button = Tab:CreateButton({
 -- The function that takes place when the button is pressed
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "Notoriety",
+   Callback = function()
+   loadstring(request({Url = "https://raw.githubusercontent.com/brickmane-scripts/Notoriety/refs/heads/main/GUI.lua",Method = "GET",}).Body)()-- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "MVSD",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Aoky-SS/Roblox/refs/heads/main/Games%20/MVSD.lua'))()-- The function that takes place when the button is pressed
+   end,
+})
