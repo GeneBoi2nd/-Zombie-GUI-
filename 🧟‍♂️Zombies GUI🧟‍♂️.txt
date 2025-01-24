@@ -105,3 +105,9 @@ Tab2:CreateButton({
       end)
    end
 })
+local Button = Tab:CreateButton({
+   Name = "Sussy Baka",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/cnPthPiGon/RamDRuomFirirueieiid8didj/refs/heads/main/Fe%20sus%20hub"))()-- The function that takes place when the button is pressed
+   end,
+})
